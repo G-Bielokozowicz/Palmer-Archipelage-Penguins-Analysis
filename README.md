@@ -24,6 +24,10 @@ Biscoe island has the highest number of penguins, but only gentoo species.
 
 Adelie penguins are rather evenly distributed across all 3 islands.
 
+Gentoo penguins are much heavier than other species and have more shallow culmnes.
+
+Males of each species are bigger than females.
+
 Penguins with longer flippers are heavier, but have more shallow culmens.
 # Study and Island distrubution
 How many datapoints where collected per study and island.
@@ -54,8 +58,25 @@ Analysis of culmen length, depth, flipper length and body mass, and their relati
 ## Regression analysis
 ![obraz](https://github.com/user-attachments/assets/0f7fad30-22f3-43dc-bc29-bf0125c5bbce)
 
-## Join plots
+## Joint plots
 ![obraz](https://github.com/user-attachments/assets/8a924d7e-67d9-45b2-8738-4024326a3aca)
 ![obraz](https://github.com/user-attachments/assets/b1c2a46e-8b93-45f8-ba03-f45ed76e801e)
 ![obraz](https://github.com/user-attachments/assets/131d55ae-f98d-4d52-93aa-17660405000c)
+
+## Body attributes by sex 
+![obraz](https://github.com/user-attachments/assets/d5316c66-155a-4cec-8728-6ce9ef7fb1c4)
+
+## Regression analysis by sex
+![obraz](https://github.com/user-attachments/assets/55d4e6c6-546b-4c5c-8a09-72afcb1e8693)
+![obraz](https://github.com/user-attachments/assets/f2b43588-cd26-44b2-883a-05427c307d72)
+![obraz](https://github.com/user-attachments/assets/ed9a37bf-46b9-40a4-87c8-72521cb4d6ed)
+
+## Pairwise relationships by species
+![obraz](https://github.com/user-attachments/assets/fbfafffb-83e9-4b97-9c5f-a32cfd3f46f1)
+
+
+## Regression analysis by species
+![obraz](https://github.com/user-attachments/assets/485f089b-5682-45e1-abfa-52481aeca1cf)
+![obraz](https://github.com/user-attachments/assets/f91dbef8-04f0-43fb-9107-99333999d5a1)
+![obraz](https://github.com/user-attachments/assets/aff6c65a-96ca-4ad9-9ce0-86dd6aa12562)
 
