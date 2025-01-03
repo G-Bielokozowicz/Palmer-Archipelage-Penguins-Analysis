@@ -121,3 +121,49 @@ Model achieved very high accuracy, meaning the differences between penguin speci
 
 ![obraz](https://github.com/user-attachments/assets/16181360-37e6-413c-8fd9-aff6631cf305)
 
+### Feature Importance:
+
+The most important feature for species detection was culmen length.
+
+| Feature               | Importance |
+|------------------------|------------|
+| Culmen Length (mm)     | 0.436320   |
+| Flipper Length (mm)    | 0.248993   |
+| Culmen Depth (mm)      | 0.246908   |
+| Body Mass (g)          | 0.067778   |
+
+
+
+![obraz](https://github.com/user-attachments/assets/da753e35-3d84-45f9-b226-43d2d09b19f6)
+
+# Sex prediction
+Using a Random Forest Classifier to predict the sex of a penguin based on their body attributes: culmen length and depth, flipper length, body mass.
+Model achieved very high accuracy, meaning the differences between male and female penguins are very distinct.
+
+
+### Classification Report:
+
+| Class    | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| FEMALE   | 0.88      | 0.88   | 0.88     | 34      |
+| MALE     | 0.89      | 0.89   | 0.89     | 35      |
+| **Accuracy** |       |        | 0.88     | 69      |
+| **Macro avg** | 0.88  | 0.88   | 0.88     | 69      |
+| **Weighted avg** | 0.88 | 0.88   | 0.88     | 69      |
+
+### Additional Metrics:
+- **Accuracy Score**: 0.8841
+- **Cross-validation Score**: 0.8431
+
+![obraz](https://github.com/user-attachments/assets/11553900-3740-4b8b-898a-285be953ee66)
+
+### Feature Importance:
+The most important feature for sex classification was culmen depth, followed closely by body mass.
+| Feature               | Importance |
+|------------------------|------------|
+| Culmen Depth (mm)      | 0.332557   |
+| Body Mass (g)          | 0.303906   |
+| Culmen Length (mm)     | 0.222556   |
+| Flipper Length (mm)    | 0.140980   |
+
+![obraz](https://github.com/user-attachments/assets/6dec9e33-5916-4052-9a91-86334134d090)
