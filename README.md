@@ -96,3 +96,28 @@ Delta 13C values suggests the penguins primarily forage in a terrestrial or near
 
 The lack of spread in the data suggests minimal variation in diet and foraging behavior across individuals.
 The stable values could suggest consistent environmental conditions or food availability in the penguins' habitat.
+
+
+# Species prediction
+Using a Random Forest Classifier to predict the species of a penguin based on their body attributes: culmen length and depth, flipper length, body mass.
+Model achieved very high accuracy, meaning the differences between penguin species are very distinct.
+
+
+### Classification Report:
+
+| Class                              | Precision | Recall | F1-Score | Support |
+|------------------------------------|-----------|--------|----------|---------|
+| Adelie Penguin (Pygoscelis adeliae) | 1.00      | 0.97   | 0.98     | 30      |
+| Chinstrap penguin (Pygoscelis antarctica) | 0.93      | 1.00   | 0.97     | 14      |
+| Gentoo penguin (Pygoscelis papua)   | 1.00      | 1.00   | 1.00     | 25      |
+| **Accuracy**                        |           |        | 0.99     | 69      |
+| **Macro avg**                       | 0.98      | 0.99   | 0.98     | 69      |
+| **Weighted avg**                    | 0.99      | 0.99   | 0.99     | 69      |
+
+### Additional Metrics:
+- **Accuracy Score**: 0.9855
+- **Cross-validation score**: 0.9738
+
+
+![obraz](https://github.com/user-attachments/assets/16181360-37e6-413c-8fd9-aff6631cf305)
+
